@@ -39,7 +39,7 @@
 
 .content-container {
   background-color: orange;
-  padding-top: 2%;
+  padding-top: 1%;
 }
 
 .content-container h2 {
@@ -47,5 +47,6 @@
 }
 
 img {
-  width:75%;
+  height:50vh;
+  border: 5px solid black;  
 }
