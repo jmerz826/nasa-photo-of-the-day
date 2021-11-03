@@ -50,3 +50,11 @@ img {
   height:50vh;
   border: 5px solid black;  
 }
+
+.date-selector {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width:50%;
+  
+}

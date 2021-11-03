@@ -2,7 +2,8 @@ import React, {useState, useEffect} from "react";
 import axios from "axios";
 import "./App.css";
 import Header from "./components/header.js";
-import { API_KEY } from './constants/index.js'
+import { API_KEY } from './constants/index.js';
+
 
 function App() {
   const [imageUrl, setImageUrl] = useState('');
@@ -28,13 +29,6 @@ function App() {
       <div className="content-container">
         <h2>{imageTitle}</h2>
         <img src={imageUrl} alt={imageTitle} />
-        <div className="date-selector">
-          <form action="/action_page.php">
-            Month (MM): <input type="text" name="month" />
-            Day (DD): <input type="text" name="day" />
-
-          </form>
-        </div>
       </div>
     </div>
   );
