@@ -1,0 +1,11 @@
+.photo-caption {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+
+.photo-caption p {
+    width: 60%;
+    line-height: 1.5;
+}

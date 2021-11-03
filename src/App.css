@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: orange;
+
 }
 
 .App-logo {
@@ -38,7 +40,6 @@
 }
 
 .content-container {
-  background-color: orange;
   padding-top: 1%;
 }
 
@@ -57,4 +58,11 @@ img {
   justify-content: center;
   width:50%;
   
+}
+
+footer {
+  padding:2%;
+  margin-top: 5%;
+  background-color: black;
+  color: white;
 }
