@@ -17,7 +17,7 @@ const ContentContainer = styled.div`
 
   img{
     height:50vh;
-    border: 5px solid black;  
+    border: 5px solid ${p=> p.theme.tertiaryColor};
   }
 `
 
@@ -55,7 +55,7 @@ function App() {
         <h2>{imageTitle}</h2>
         <img src={imageUrl} alt={imageTitle} />
         <PhotoDetails caption={explanation} />
-        <DateSelector setPhotoDate={setPhotoDate} setAPI_ENDPOINT={setAPI_ENDPOINT} photoDate={photoDate} API_ENDPOINT={API_ENDPOINT}/>
+        <DateSelector setPhotoDate={setPhotoDate} setAPI_ENDPOINT={setAPI_ENDPOINT} photoDate={photoDate} API_ENDPOINT={API_ENDPOINT} setCopyright={setCopyright }/>
       </ContentContainer>
       <Footer copyright={copyright} />
     </div>
