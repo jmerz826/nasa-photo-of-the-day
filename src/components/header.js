@@ -1,13 +1,16 @@
 import React from "react";
-// import './header.css';
 import styled from "styled-components";
 
 const HeaderStyled = styled.div`
-    background-color: aqua;
+    background-color: ${props => props.theme.secondaryColor};
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 2%;
+
+    h1 {
+        font-style: italic;
+    }
 `
 
 const Header = (props) => {
