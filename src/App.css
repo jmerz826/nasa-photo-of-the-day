@@ -39,30 +39,10 @@
   }
 }
 
-.content-container {
-  padding-top: 1%;
-}
-
-.content-container h2 {
-  margin-top: 0;
-}
-
-img {
-  height:50vh;
-  border: 5px solid black;  
-}
-
 .date-selector {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width:50%;
   
-}
-
-footer {
-  padding:2%;
-  margin-top: 5%;
-  background-color: black;
-  color: white;
 }

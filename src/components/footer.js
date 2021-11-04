@@ -1,11 +1,19 @@
 import React from "react";
 import '../App.css';
+import styled from "styled-components";
+
+const StyledFooter = styled.footer`
+  padding:2%;
+  margin-top: 5%;
+  background-color: ${p => p.theme.tertiaryColor};
+  color: white;
+`
 
 const Footer = (props) => {
     return (
-        <footer>
+        <StyledFooter>
             Copyright: {props.copyright}
-        </footer>
+        </StyledFooter>
     )
 }
 
