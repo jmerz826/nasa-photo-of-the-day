@@ -6,6 +6,7 @@ import { API_KEY } from './constants/index.js';
 import PhotoDetails from "./components/photoDetails";
 import Footer from "./components/footer";
 import DateSelector from "./components/dateSelector";
+import styled from 'styled-components';
 
 
 function App() {

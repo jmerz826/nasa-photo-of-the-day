@@ -1,12 +1,23 @@
 import React from "react";
-import './photoDetails.css';
+import styled from 'styled-components';
+
+const StyledDetails = styled.div`
+    p {
+    display: inline-block;
+    width: 60%;
+    line-height: 1.5;
+    text-align:center;
+    }
+
+`
+
 
 const PhotoDetails = (props) => {
     
     return (
-        <div className="photo-caption">
+        <StyledDetails>
             <p>{props.caption}</p>
-        </div>
+        </StyledDetails>
     )
 }
 
