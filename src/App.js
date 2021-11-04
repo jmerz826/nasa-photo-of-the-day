@@ -5,6 +5,7 @@ import Header from "./components/header.js";
 import { API_KEY } from './constants/index.js';
 import PhotoDetails from "./components/photoDetails";
 import Footer from "./components/footer";
+import DateSelector from "./components/dateSelector";
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
         <h2>{imageTitle}</h2>
         <img src={imageUrl} alt={imageTitle} />
         <PhotoDetails caption={explanation} />
+        <DateSelector setPhotoDate={setPhotoDate} setAPI_ENDPOINT={setAPI_ENDPOINT} />
       </div>
       <Footer copyright={copyright} />
     </div>
