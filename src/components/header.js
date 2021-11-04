@@ -12,11 +12,16 @@ const HeaderStyled = styled.div`
         font-style: italic;
     }
 `
+const BoldSpan = styled.span`
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: ${p => p.theme.primaryColor};
+`
 
 const Header = (props) => {
     return (
         <HeaderStyled>
-            <p>{props.date}</p>
+            <p>Displayed photo from: <BoldSpan>{props.date}</BoldSpan></p>
             <h1>🚀🚀 NASA Photo of the Day! 🚀🚀</h1>
             <a href="https://www.nasa.gov" target="_blank">Nasa's Website!</a>
         </HeaderStyled>
