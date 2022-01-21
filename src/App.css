@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: orange;
+
 }
 
 .App-logo {
@@ -35,4 +37,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.date-selector {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width:50%;
+  
 }
